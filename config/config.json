@@ -1,0 +1,61 @@
+{
+  "run_mode": "release",
+  "app": {
+    "app_name": "IEP2021S2BE",
+    "version": "1.0.0"
+  },
+  "http": {
+    "protocol": "https",
+    "protocol_version": "1.1",
+    "domain": "be.admin.endangeredplantsau.ga",
+    "host": "192.168.0.118",
+    "port": "8080",
+    "certi_dir": "",
+    "key_dir": "",
+    "shutdown_timeout": 30,
+    "max_content_length": 16384,
+    "max_logger_length": 4096
+  },
+  "db": {
+    "type": "mysql",
+    "debug": true,
+    "dsn": "",
+    "max_life_time": 8192,
+    "max_open_conns": 0,
+    "max_idle_conns": 1000
+  },
+  "mysql": {
+    "host": "34.129.56.20",
+    "local_host": "127.0.0.1",
+    "port": "3306",
+    "user_name": "root",
+    "password": "",
+    "db_name": "iep2021s2be",
+    "params": "charset=utf8mb4&parseTime=True&loc=Local"
+  },
+  "admin": {
+    "user_email": "admin",
+    "user_password": "",
+    "user_nick_name": "admin"
+  },
+  "fe_admin": {
+    "http": {
+      "local_protocol": "http",
+      "remote_protocol": "https",
+      "protocol_version": "1.1",
+      "domain": "admin.endangeredplantsau.ga",
+      "host": "192.168.0.118",
+      "port": "3030"
+    }
+  },
+  "fe_main": {
+    "http": {
+      "local_protocol": "http",
+      "remote_protocol": "https",
+      "protocol_version": "1.1",
+      "domain": "endangeredplantsau.ga",
+      "host": "192.168.0.118",
+      "port": "81"
+    }
+  }
+}
