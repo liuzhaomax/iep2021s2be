@@ -6,7 +6,7 @@
   },
   "http": {
     "protocol": "https",
-    "protocol_version": "1.0",
+    "protocol_version": "",
     "domain": "be.admin.endangeredplantsau.ga",
     "host": "192.168.0.118",
     "port": "8080",
